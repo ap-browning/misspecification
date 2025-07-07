@@ -1,0 +1,6 @@
+include("stats.jl")
+include("gp/gp_crowding.jl")
+include("gp/gp_diffusivity.jl")
+include("models/shared.jl")
+include("models/ode_logistic.jl")
+include("models/pde_fkpp.jl")
